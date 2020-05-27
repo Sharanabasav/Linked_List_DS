@@ -9,6 +9,11 @@ struct Node
   int data; 
   struct Node *next; 
 }; 
+
+void push(struct Node**, int);
+void insertAfter(struct Node*, int); 
+void append(struct Node**, int);
+void printList(struct Node *);
   
 /* Given a reference (pointer to pointer) to the head of a list and  
    an int, inserts a new node on the front of the list. */
